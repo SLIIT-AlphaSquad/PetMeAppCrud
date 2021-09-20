@@ -126,4 +126,8 @@ public class MainActivity extends AppCompatActivity {
             }
         }));
 }
+public void sendMesssage(View view){
+    Intent intent = new Intent(MainActivity.this,RecycleViewList.class);
+    startActivity(intent);
+}
 }
